@@ -1,0 +1,127 @@
+.bg-custom {
+    background-color: #666;
+}
+
+.bg-custom2 {
+    background-color: #111111;
+}
+
+   body{
+      background:#ececec;
+      min-height:100vh;
+      padding:35px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    /* Shared Box Styling */
+    .box{
+      background:#be4747;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:black;
+
+      /* Responsive text */
+      font-size:clamp(12px, 2vw, 28px);
+
+      width:100%;
+      overflow:visible;
+    }
+
+    .box-logo{
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      margin-bottom: 10px;
+
+      /* Responsive text */
+      font-size:clamp(12px, 2vw, 28px);
+
+      width:100%;
+      overflow:visible;
+    }
+
+
+    .logo-box{
+      height:90px;
+      margin-bottom:12px;
+    }
+
+    .info-large{
+      height:70px;
+      margin-bottom:12px;
+    }
+
+    .info-small{
+      height:70px;
+    }
+
+    /* Right Carousel Box */
+    .carousel-wrapper{
+      height:324px;
+      width:100%;
+      background:#d9d9d9;
+      overflow:hidden;
+    }
+
+    .carousel,
+    .carousel-inner,
+    .carousel-item{
+      height:100%;
+    }
+
+    .carousel-item img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+
+    /* Top Right Button */
+    .top-button{
+      position:absolute;
+      top:12px;
+      right:12px;
+      border:none;
+      border-radius:20px;
+      padding:6px 14px;
+      background:#cfcfcf;
+
+      font-size:clamp(10px, 1vw, 14px);
+    }
+
+    .img-fluid{
+        max-width: 90%;
+        height: auto;
+        
+    }
+
+.about-box{
+      height:70px;
+      max-width:350px;
+      margin-bottom:25px;
+    }
+
+    /* LEFT BOX */
+    .left-box{
+      height:420px;
+    }
+
+    /* Right Small Info Boxes */
+    .info-box{
+      height:95px;
+      margin-bottom:15px;
+    }
+
+    /* Bottom Right Large Box */
+    .bottom-box{
+      height:200px;
+    }
+
+.margin1{
+ 
+  margin-top: 58px;
+  
+}
