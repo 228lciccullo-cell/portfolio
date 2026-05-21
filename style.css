@@ -15,7 +15,7 @@
 
     /* Shared Box Styling */
     .box{
-      background:#be4747;
+      background:#074366;
       display:flex;
       align-items:center;
       justify-content:center;
@@ -53,6 +53,7 @@
     .info-large{
       height:70px;
       margin-bottom:12px;
+      font-size: medium;
     }
 
     .info-small{
@@ -131,4 +132,5 @@ footer {
   padding: 10px;
   text-align: left;
   color: white;
+  margin-top: 40px;
 }
