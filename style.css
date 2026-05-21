@@ -125,3 +125,10 @@
   margin-top: 58px;
   
 }
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
